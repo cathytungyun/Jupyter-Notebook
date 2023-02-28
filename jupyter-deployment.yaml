@@ -22,7 +22,7 @@ spec:
         spec:
             containers:
                 - image: jupyter/base-notebook
-                imagePullPolicy: Always
-                name: jupyter-notebook
-                ports:
+                  imagePullPolicy: Always
+                  name: jupyter-notebook
+                  ports:
                     - containerPort: 8888
