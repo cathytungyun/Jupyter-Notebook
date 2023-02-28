@@ -2,9 +2,9 @@ apiVersion: v1
 kind: Service
 metadata:
   name: jupyter-notebook
-  loadBalancerIP: 35.231.254.102
 spec:
   type: LoadBalancer
+  loadBalancerIP: 35.231.254.102
   ports:
     - port: 80
       protocol: TCP
