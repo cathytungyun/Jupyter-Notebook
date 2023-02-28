@@ -21,7 +21,7 @@ spec:
         app: jupyter-notebook
     spec:
       containers:
-      - image: jupyter/minimal-notebook 
+      - image: jupyter/base-notebook
         imagePullPolicy: Always
         name: jupyter-notebook
         env:
