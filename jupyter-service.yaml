@@ -3,7 +3,8 @@ kind: Service
 metadata:
   name: jupyter-notebook-service
 spec:
-  type: LoadBalancer       
+  type: LoadBalancer
+  loadBalancerIP: 35.231.254.102
   ports:
   - port: 8888               
     protocol: TCP          
