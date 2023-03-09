@@ -4,6 +4,7 @@ metadata:
   name: jupyter-notebook
 spec:
   type: LoadBalancer
+  loadBalancerIP: 34.168.169.84
   ports:
   - port: 8888               
     protocol: TCP          
